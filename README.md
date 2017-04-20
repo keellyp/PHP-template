@@ -1,2 +1,2 @@
-# static-template
-A static-template for HTML, CSS, JS with GULP
+# PHP-template
+A dynamic template for PHP, HTML, CSS, JS with GULP
