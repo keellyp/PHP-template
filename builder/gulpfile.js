@@ -9,11 +9,12 @@ const config =
 };
 
 // Tools dependencies
-browserSync         = require( 'browser-sync' ).create(),
 gulp_rename         = require( 'gulp-rename' ),
 gulp_plumber        = require( 'gulp-plumber' ),
 gulp_notify         = require( 'gulp-notify' ),
 gulp_sourcemaps     = require( 'gulp-sourcemaps' ),
+
+// Image depedency
 gulp_imagemin       = require( 'gulp-imagemin' );
 
 // Style dependencies
