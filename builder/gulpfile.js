@@ -88,8 +88,8 @@ gulp.task( 'fonts', function()
 // Watch all my task
 gulp.task( 'watch', ['style', 'javascript', 'images', 'fonts'], function()
 {
-    gulp.watch(config.scss + '*.scss', ['style']);
-    gulp.watch(config.js + '*.js', ['javascript']);
+    gulp.watch(config.scss + '**/*.scss', ['style']);
+    gulp.watch(config.js + '**/*.js', ['javascript']);
     gulp.watch(config.assets + 'images/*', ['images']);
     gulp.watch(config.assets + 'fonts/*', ['fonts']);
 } );
